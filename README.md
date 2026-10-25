@@ -144,6 +144,14 @@ Then run the focused lint checks and test suite:
 ruff check app.py src pages scripts tests --select E4,E7,E9,F
 pytest -q
 ```
+## Run Locally
+
+After starting the Streamlit app, open:
+
+**http://localhost:8601/**
+
+> This link works only while the app is running on your own computer.  
+> It is not a public hosted URL.
 
 ## Model evaluation table
 
