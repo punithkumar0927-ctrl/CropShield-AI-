@@ -1,0 +1,27 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.zip
+/archive (10)/
+plantvillage dataset/
+state_check.png
+tmp_test_images/
+.venv/
+.venv*
+.egg-info/
+.pytest_cache/
+.mypy_cache/
+.idea/
+.vscode/
+.DS_Store
+crop_history.db
+data/*
+!data/README.md
+!data/disease_knowledge.json
+!data/local_expert_contacts.json
+data/plant_timeline_images/
+/archive (10)/
+models/*.keras
+artifacts/*_training_history.csv
+artifacts/dataset_split.csv

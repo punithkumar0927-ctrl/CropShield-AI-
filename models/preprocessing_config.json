@@ -1,0 +1,13 @@
+{
+  "input_size": [
+    224,
+    224
+  ],
+  "color_mode": "RGB",
+  "resize_method": "bilinear",
+  "input_pixel_range": [
+    0,
+    255
+  ],
+  "architecture_preprocessing": "MobileNetV2 preprocess_input is embedded in the trained model."
+}

@@ -1,0 +1,13 @@
+{
+  "selection_basis": "Models are reported side-by-side; test results are not used for model selection.",
+  "models": {
+    "mobilenet": {
+      "accuracy": 0.886896046852123,
+      "macro_precision": 0.8586235607243417,
+      "macro_recall": 0.8606343114405363,
+      "macro_f1": 0.8548561163992575,
+      "weighted_f1": 0.8861298270732916,
+      "latency_ms_per_image": 43.7975
+    }
+  }
+}

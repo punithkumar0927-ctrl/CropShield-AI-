@@ -1,0 +1,250 @@
+{
+  "status": "evaluated",
+  "models": {
+    "mobilenet": {
+      "accuracy": 0.886896046852123,
+      "macro_precision": 0.8586235607243417,
+      "macro_recall": 0.8606343114405363,
+      "macro_f1": 0.8548561163992575,
+      "weighted_precision": 0.8914072986278665,
+      "weighted_recall": 0.886896046852123,
+      "weighted_f1": 0.8861298270732916,
+      "per_class": {
+        "Tomato___Bacterial_spot": {
+          "precision": 0.8825301204819277,
+          "recall": 0.915625,
+          "f1-score": 0.8987730061349694,
+          "support": 320.0
+        },
+        "Tomato___Early_blight": {
+          "precision": 0.8333333333333334,
+          "recall": 0.5666666666666667,
+          "f1-score": 0.6746031746031746,
+          "support": 150.0
+        },
+        "Tomato___Late_blight": {
+          "precision": 0.9219330855018587,
+          "recall": 0.8671328671328671,
+          "f1-score": 0.8936936936936937,
+          "support": 286.0
+        },
+        "Tomato___Leaf_Mold": {
+          "precision": 0.7228260869565217,
+          "recall": 0.9236111111111112,
+          "f1-score": 0.8109756097560976,
+          "support": 144.0
+        },
+        "Tomato___Septoria_leaf_spot": {
+          "precision": 0.875,
+          "recall": 0.7865168539325843,
+          "f1-score": 0.8284023668639053,
+          "support": 267.0
+        },
+        "Tomato___Spider_mites Two-spotted_spider_mite": {
+          "precision": 0.8198529411764706,
+          "recall": 0.8849206349206349,
+          "f1-score": 0.851145038167939,
+          "support": 252.0
+        },
+        "Tomato___Target_Spot": {
+          "precision": 0.7330508474576272,
+          "recall": 0.8160377358490566,
+          "f1-score": 0.7723214285714286,
+          "support": 212.0
+        },
+        "Tomato___Tomato_Yellow_Leaf_Curl_Virus": {
+          "precision": 0.9922580645161291,
+          "recall": 0.9552795031055901,
+          "f1-score": 0.9734177215189873,
+          "support": 805.0
+        },
+        "Tomato___Tomato_mosaic_virus": {
+          "precision": 0.9107142857142857,
+          "recall": 0.8947368421052632,
+          "f1-score": 0.9026548672566371,
+          "support": 57.0
+        },
+        "Tomato___healthy": {
+          "precision": 0.8947368421052632,
+          "recall": 0.99581589958159,
+          "f1-score": 0.9425742574257425,
+          "support": 239.0
+        },
+        "accuracy": 0.886896046852123,
+        "macro avg": {
+          "precision": 0.8586235607243417,
+          "recall": 0.8606343114405363,
+          "f1-score": 0.8548561163992575,
+          "support": 2732.0
+        },
+        "weighted avg": {
+          "precision": 0.8914072986278665,
+          "recall": 0.886896046852123,
+          "f1-score": 0.8861298270732916,
+          "support": 2732.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          293,
+          0,
+          4,
+          1,
+          10,
+          2,
+          6,
+          3,
+          1,
+          0
+        ],
+        [
+          8,
+          85,
+          13,
+          11,
+          9,
+          3,
+          17,
+          2,
+          0,
+          2
+        ],
+        [
+          1,
+          9,
+          248,
+          14,
+          3,
+          3,
+          8,
+          0,
+          0,
+          0
+        ],
+        [
+          4,
+          1,
+          0,
+          133,
+          0,
+          3,
+          2,
+          0,
+          0,
+          1
+        ],
+        [
+          10,
+          6,
+          3,
+          14,
+          210,
+          3,
+          17,
+          0,
+          0,
+          4
+        ],
+        [
+          0,
+          0,
+          0,
+          1,
+          1,
+          223,
+          12,
+          0,
+          2,
+          13
+        ],
+        [
+          5,
+          1,
+          0,
+          3,
+          5,
+          16,
+          173,
+          1,
+          0,
+          8
+        ],
+        [
+          11,
+          0,
+          1,
+          5,
+          1,
+          15,
+          1,
+          769,
+          2,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          2,
+          1,
+          3,
+          0,
+          0,
+          51,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          238
+        ]
+      ],
+      "image_count": 2732,
+      "inference_seconds": 119.654646,
+      "latency_ms_per_image": 43.7975,
+      "roc_auc_ovr_macro": 0.9909767142631238,
+      "model_type": "mobilenet",
+      "model_file": "mobilenet_best.keras",
+      "class_names": [
+        "Tomato___Bacterial_spot",
+        "Tomato___Early_blight",
+        "Tomato___Late_blight",
+        "Tomato___Leaf_Mold",
+        "Tomato___Septoria_leaf_spot",
+        "Tomato___Spider_mites Two-spotted_spider_mite",
+        "Tomato___Target_Spot",
+        "Tomato___Tomato_Yellow_Leaf_Curl_Virus",
+        "Tomato___Tomato_mosaic_virus",
+        "Tomato___healthy"
+      ],
+      "test_split": "Saved seed-based stratified 70/15/15 split after exact duplicate removal",
+      "metadata": {
+        "evaluated_at": "2026-10-25T15:37:22.173009+00:00",
+        "model_file": "mobilenet_best.keras",
+        "test_image_count": 2732,
+        "number_of_classes": 10,
+        "image_size": [
+          224,
+          224
+        ],
+        "batch_size": 32,
+        "random_seed": 42,
+        "dataset_path": "C:\\Users\\punit\\Downloads\\new folder project\\data\\PlantVillage-Dataset\\color",
+        "test_split_file": "C:\\Users\\punit\\Downloads\\new folder project\\artifacts\\dataset_split.csv",
+        "test_split_method": "Saved seed-based stratified 70/15/15 split after exact duplicate removal"
+      },
+      "model_size_mb": 11.076,
+      "evaluation_device": "CPU"
+    }
+  },
+  "updated_model": "mobilenet",
+  "updated_at": "2026-10-25T15:37:22.173009+00:00",
+  "test_split": "Saved seed-based stratified 70/15/15 split after exact duplicate removal"
+}

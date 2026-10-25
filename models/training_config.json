@@ -1,0 +1,48 @@
+{
+  "model_type": "mobilenet",
+  "model_version": "mobilenet-seed42",
+  "image_size": [
+    224,
+    224
+  ],
+  "normalization": "raw RGB 0..255 input; model graph applies architecture-specific preprocessing",
+  "class_names": [
+    "Tomato___Bacterial_spot",
+    "Tomato___Early_blight",
+    "Tomato___Late_blight",
+    "Tomato___Leaf_Mold",
+    "Tomato___Septoria_leaf_spot",
+    "Tomato___Spider_mites Two-spotted_spider_mite",
+    "Tomato___Target_Spot",
+    "Tomato___Tomato_Yellow_Leaf_Curl_Virus",
+    "Tomato___Tomato_mosaic_virus",
+    "Tomato___healthy"
+  ],
+  "selected_classes": [
+    "Tomato___Bacterial_spot",
+    "Tomato___Early_blight",
+    "Tomato___Late_blight",
+    "Tomato___Leaf_Mold",
+    "Tomato___Septoria_leaf_spot",
+    "Tomato___Spider_mites Two-spotted_spider_mite",
+    "Tomato___Target_Spot",
+    "Tomato___Tomato_Yellow_Leaf_Curl_Virus",
+    "Tomato___Tomato_mosaic_virus",
+    "Tomato___healthy"
+  ],
+  "seed": 42,
+  "batch_size": 32,
+  "epochs_requested": 8,
+  "learning_rate": 0.0001,
+  "pretrained_weights": "imagenet",
+  "class_weighting": true,
+  "confidence_policy": {
+    "status": "calibrated",
+    "threshold": 0.3698131740093231,
+    "target_accepted_accuracy": 0.9,
+    "validation_accepted_accuracy": 0.9000375798571966,
+    "validation_coverage": 0.979389032020611,
+    "validation_count": 2717,
+    "selection_method": "maximum validation coverage subject to target accepted-set accuracy"
+  }
+}
