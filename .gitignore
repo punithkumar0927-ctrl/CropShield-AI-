@@ -23,5 +23,6 @@ data/*
 data/plant_timeline_images/
 /archive (10)/
 models/*.keras
+!models/crop_model.keras
 artifacts/*_training_history.csv
 artifacts/dataset_split.csv
