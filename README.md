@@ -148,7 +148,7 @@ pytest -q
 
 After starting the Streamlit app, open:
 
-**http://localhost:8601/**
+**http://localhost:8501/**
 
 > This link works only while the app is running on your own computer.  
 > It is not a public hosted URL.
